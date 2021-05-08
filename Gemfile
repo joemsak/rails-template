@@ -30,6 +30,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'letter_opener_web', '~> 1.0'
   gem 'pessimize', "~> 0.4.0"
   gem 'web-console', '~> 4.1.0'
   gem 'rack-mini-profiler', '~> 2.3.1'
